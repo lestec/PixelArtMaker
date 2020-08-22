@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-image:url(http://paper-backgrounds.com/textureimages/2012/06/vintage-graffiti-wall-hd.jpg); 
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 35px; 
+}
+
+h1 {
+ /*font-family: Rancho, serif;*/
+  font-family: 'Covered By Your Grace', cursive;
+    font-size: 90px;
+    text-shadow: 4px 4px 4px #aaa;
+    z-index: 3;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    background: #fff;
+  /*spray can not working well 
+  cursor:url(https://png.icons8.com/metro/50/000000/deodorant-spray.png),auto;
+   */
+}
+
+.blank-grid {
+  border: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+/*poss change to hover over change*/    
+/*may take out d/t image bleed over*/    
+    opacity: 0.8;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
